@@ -5,23 +5,8 @@ Kernel*](https://kernel.org/doc/html/latest/process/submitting-patches.html),
 the [git man pages](http://git-scm.com/doc) and various practices popular
 among the community.
 
-Translations are available in the following languages:
-
-* [Chinese (Simplified)](https://github.com/aseaday/git-style-guide)
-* [Chinese (Traditional)](https://github.com/JuanitoFatas/git-style-guide)
-* [French](https://github.com/pierreroth64/git-style-guide)
-* [German](https://github.com/runjak/git-style-guide)
-* [Greek](https://github.com/grigoria/git-style-guide)
-* [Japanese](https://github.com/objectx/git-style-guide)
-* [Korean](https://github.com/ikaruce/git-style-guide)
-* [Portuguese](https://github.com/guylhermetabosa/git-style-guide)
-* [Russian](https://github.com/alik0211/git-style-guide)
-* [Thai](https://github.com/zondezatera/git-style-guide)
-* [Turkish](https://github.com/CnytSntrk/git-style-guide)
-* [Ukrainian](https://github.com/denysdovhan/git-style-guide)
-
-If you feel like contributing, please do so! Fork the project and open a pull
-request.
+This is RealScout's Engineering team's git style guide. Please adhere to it as 
+best you can.
 
 # Table of contents
 
@@ -43,12 +28,12 @@ request.
   $ git checkout -b login_fix
   ```
 
-* Identifiers from corresponding tickets in an external service (eg. a GitHub
-  issue) are also good candidates for use in branch names. For example:
+* Identifiers from corresponding tickets in an external service (eg. a Pivotal
+  Tracker issue) are also good candidates for use in branch names. For example:
 
   ```shell
-  # GitHub issue #15
-  $ git checkout -b issue-15
+  # Tracker issue #151408793
+  $ git checkout -b bug/something-descriptive-151408793
   ```
 
 * Use *hyphens* to separate words.
